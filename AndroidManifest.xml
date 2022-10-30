@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ass2.f190260_i190468">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.F190260_I190468"
+        tools:targetApi="31">
+        <activity
+            android:name=".chat"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.UsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS2_CreateAccount_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS23_EditProfile_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS22_Profile_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS21_Liked_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS20_Liked_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS19_ListenLater_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS18_RecentSearch_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS17_Song_Play_Page2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS16_SongPlay_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS15_SelectPlaylist_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS14_Record_Page4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS13_Record_Page3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS12_Record_Page2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS11_Record_Page1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS10_UploadMusic_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS9_AddPlaylist_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS8_Sidebar_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS7_SongTitle_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS6_Playlist_Page2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS5_playlist_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS4_SignUp_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS3_SignIn_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SS1_Musify_Logo_Page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
